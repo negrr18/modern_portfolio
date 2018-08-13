@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Resposive Portfolio",
   "main": "index.js",
+  "homepage": "https://negrr18.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "tagbis",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.3",
+    "npm": "^6.3.0"
   }
 }
